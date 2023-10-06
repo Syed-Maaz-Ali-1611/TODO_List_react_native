@@ -14,8 +14,14 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-first-firstTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-first-firstTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		23234079BAD14F1CAFC79213 /* new.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F011454954A4198380739 /* new.ttf */; };
-		92DBE1C3D7BA4D08AF1C0E1A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 962A0CCD53CE40EBB175B6BF /* OFL.txt */; };
+		61F3B759595F41E58C69360B /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFC45F5C5482B83306111 /* DancingScript-Bold.ttf */; };
+		53F932FD62F645EE833E70BE /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86FD9A1D31234C49936867C8 /* DancingScript-Medium.ttf */; };
+		64D6E652E9934E7BA14EA8F7 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41D52FF9FE584F019A75C40E /* DancingScript-Regular.ttf */; };
+		0D0A49284B0C4ED1A35B945A /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FAFAB4E04AB43E68EAC637A /* DancingScript-SemiBold.ttf */; };
+		756099BEAF4E4A3B8EC43297 /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 998B1E57CD7842B982FD1391 /* DancingScript-VariableFont_wght.ttf */; };
+		D06B8E8D198543CD8133C53B /* DelaGothicOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28FC449ECD3F4CC5AF07223A /* DelaGothicOne-Regular.ttf */; };
+		B12886F1496B496481818C0E /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCE05BF3CDB34B2BB6271BBC /* OFL.txt */; };
+		72DA5F7E393946FCAA9069B3 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2C44ADD51C884FE7BAEC5E8C /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +52,14 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = first/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-first-firstTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first-firstTests.release.xcconfig"; path = "Target Support Files/Pods-first-firstTests/Pods-first-firstTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		8D3F011454954A4198380739 /* new.ttf */ = {isa = PBXFileReference; name = "new.ttf"; path = "../assets/font/new.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		962A0CCD53CE40EBB175B6BF /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/font/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FCDFC45F5C5482B83306111 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; name = "DancingScript-Bold.ttf"; path = "../assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86FD9A1D31234C49936867C8 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; name = "DancingScript-Medium.ttf"; path = "../assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41D52FF9FE584F019A75C40E /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; name = "DancingScript-Regular.ttf"; path = "../assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FAFAB4E04AB43E68EAC637A /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; name = "DancingScript-SemiBold.ttf"; path = "../assets/fonts/DancingScript-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		998B1E57CD7842B982FD1391 /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "DancingScript-VariableFont_wght.ttf"; path = "../assets/fonts/DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		28FC449ECD3F4CC5AF07223A /* DelaGothicOne-Regular.ttf */ = {isa = PBXFileReference; name = "DelaGothicOne-Regular.ttf"; path = "../assets/fonts/DelaGothicOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DCE05BF3CDB34B2BB6271BBC /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C44ADD51C884FE7BAEC5E8C /* README.txt */ = {isa = PBXFileReference; name = "README.txt"; path = "../assets/fonts/README.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +168,14 @@
 		0E58AB48BE6B4AB5A69F06C3 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				8D3F011454954A4198380739 /* new.ttf */,
-				962A0CCD53CE40EBB175B6BF /* OFL.txt */,
+				5FCDFC45F5C5482B83306111 /* DancingScript-Bold.ttf */,
+				86FD9A1D31234C49936867C8 /* DancingScript-Medium.ttf */,
+				41D52FF9FE584F019A75C40E /* DancingScript-Regular.ttf */,
+				2FAFAB4E04AB43E68EAC637A /* DancingScript-SemiBold.ttf */,
+				998B1E57CD7842B982FD1391 /* DancingScript-VariableFont_wght.ttf */,
+				28FC449ECD3F4CC5AF07223A /* DelaGothicOne-Regular.ttf */,
+				DCE05BF3CDB34B2BB6271BBC /* OFL.txt */,
+				2C44ADD51C884FE7BAEC5E8C /* README.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				23234079BAD14F1CAFC79213 /* new.ttf in Resources */,
-				92DBE1C3D7BA4D08AF1C0E1A /* OFL.txt in Resources */,
+				61F3B759595F41E58C69360B /* DancingScript-Bold.ttf in Resources */,
+				53F932FD62F645EE833E70BE /* DancingScript-Medium.ttf in Resources */,
+				64D6E652E9934E7BA14EA8F7 /* DancingScript-Regular.ttf in Resources */,
+				0D0A49284B0C4ED1A35B945A /* DancingScript-SemiBold.ttf in Resources */,
+				756099BEAF4E4A3B8EC43297 /* DancingScript-VariableFont_wght.ttf in Resources */,
+				D06B8E8D198543CD8133C53B /* DelaGothicOne-Regular.ttf in Resources */,
+				B12886F1496B496481818C0E /* OFL.txt in Resources */,
+				72DA5F7E393946FCAA9069B3 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
