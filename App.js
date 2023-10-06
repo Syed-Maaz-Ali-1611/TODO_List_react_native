@@ -1,7 +1,7 @@
 // React Native Counter Example using Hooks!
 
 import React , {useState} from 'react';
-import {StyleSheet, View, Text, KeyboardAvoidingView, Platform, TextInput, TouchableOpacity, Keyboard,ScrollView} from 'react-native';
+import {StyleSheet, View, Text, KeyboardAvoidingView, Platform, TextInput, TouchableOpacity, Keyboard,ScrollView, Image} from 'react-native';
 import Task from './component/task';
 
 
@@ -10,7 +10,8 @@ export default function App(){
   const [pendingTasks, setPendingTasks] = useState([]);
   const [completedTasks, setCompletedTasks] = useState([]);
   
-  
+
+
 
   const handleTask = () => {
     Keyboard.dismiss();
@@ -25,6 +26,12 @@ export default function App(){
     const updatedPendingTasks = [...pendingTasks];
     updatedPendingTasks.splice(index, 1);
     setPendingTasks(updatedPendingTasks);
+  };
+
+  const deleteCompletedTask = (index) => {
+    const updatedCompletedTasks = [...completedTasks];
+    updatedCompletedTasks.splice(index, 1);
+    setCompletedTasks(updatedCompletedTasks);
   };
 
  
@@ -48,6 +55,10 @@ export default function App(){
 
       <View style={styles.taskwrapper}>
         <Text style={styles.textTitle}>Completed Tasks</Text>
+        <TouchableOpacity onPress={() => deleteCompletedTask(0)}>
+            {/* Assuming you want to delete the first completed task */}
+            <Image style={styles.image} source={require('../first/assets/images/bin.png')} />
+          </TouchableOpacity>
         <View style={styles.items}>
           {completedTasks.map((item, index) => (
             <Task key={index} text={item} />
@@ -127,6 +138,13 @@ const styles = StyleSheet.create({
     marginRight: 10, 
   },
   addText: {},
+  image:{
+    height: 20,
+    width:20,
+    marginHorizontal:290,
+    marginRight: 20,
+    marginVertical:-20,
+  }
 });
 
 
