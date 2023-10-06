@@ -1,11 +1,12 @@
 // React Native Counter Example using Hooks!
 
 import React , {useState} from 'react';
-import {StyleSheet, View, Text, KeyboardAvoidingView, Platform, TextInput, TouchableOpacity, Keyboard,ScrollView, Image} from 'react-native';
+import {StyleSheet, View, Text, KeyboardAvoidingView, Platform, TextInput, TouchableOpacity, Keyboard,ScrollView, Image,  StatusBar} from 'react-native';
 import Task from './component/task';
 
 
-export default function App(){
+
+export default function App() {
   const [task, setTask]= useState();
   const [pendingTasks, setPendingTasks] = useState([]);
   const [completedTasks, setCompletedTasks] = useState([]);
