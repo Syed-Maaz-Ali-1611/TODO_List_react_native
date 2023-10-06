@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/font/new.ttf",
+      "sha1": "aa4fe2ff09693803f5665c6596480f2f911f8540"
+    },
+    {
+      "path": "assets/font/OFL.txt",
+      "sha1": "43513d1f6a1329962106efc212457e1d6ef9e980"
+    }
+  ]
+}
